@@ -21,6 +21,19 @@ h2 {
   font-size: 64px;
   text-align: center;
 }
+h3 {
+  margin-top: 60px;
+  font-size: 80px;
+  text-align: center;
+}
+h6 {
+  font-size: 35px;
+  text-align: center;
+  margin: 10px;
+}
+nav {
+  background-color: #daeaf1;
+}
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
@@ -59,9 +72,29 @@ h2 {
   line-height: 27px;
   padding: 15px 30px;
 }
+.about-body {
+  background-color: #daeaf1;
+}
+.contact h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.email-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 900px) {
-  h2 {
+  h2,
+  h3 {
     font-size: 35px;
+  }
+  h6 {
+    font-size: 25px;
   }
   .hero h1 {
     font-size: 44px;
