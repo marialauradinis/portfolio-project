@@ -129,6 +129,7 @@ footer .contact-box {
   h2,
   h3 {
     font-size: 35px;
+    margin-top: 5px;
   }
   h6 {
     font-size: 25px;
@@ -151,5 +152,11 @@ footer .contact-box {
   }
   .btn-branding-outline {
     display: block;
+  }
+  .selfie {
+    display: none;
+  }
+  .footer-text {
+    font-size: 12px;
   }
 }
