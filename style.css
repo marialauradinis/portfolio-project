@@ -72,9 +72,7 @@ nav {
   line-height: 27px;
   padding: 15px 30px;
 }
-.about-body {
-  background-color: #daeaf1;
-}
+
 .contact h2 {
   font-size: 30px;
   margin-top: 20px;
@@ -86,6 +84,27 @@ nav {
   color: var(--primary-color);
   font-size: 20px;
   margin-bottom: 20px;
+}
+.content-container {
+  padding: 80px 60px;
+  margin-top: 30px;
+  text-align: center;
+}
+.content-container h3 {
+  font-size: 55px;
+}
+.content-container h6 {
+  font-size: 30px;
+}
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
 @media (max-width: 900px) {
