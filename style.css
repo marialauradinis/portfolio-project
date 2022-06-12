@@ -116,6 +116,10 @@ footer .contact-box {
   border-radius: 50%;
   transition: all 120ms ease-in-out;
 }
+.work-description {
+  color: #6c757d;
+  font-size: 14px;
+}
 .contact-logos a:hover {
   background-color: var(--primary-color);
   color: #fff;
